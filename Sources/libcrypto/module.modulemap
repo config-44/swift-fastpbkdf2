@@ -1,0 +1,6 @@
+module libcrypto [system] {
+    header "shim.h"
+    link "crypto"
+    export *
+}
+
